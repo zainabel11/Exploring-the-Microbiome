@@ -28,6 +28,7 @@ docker run <!-- omicscodeathon/microbetaxasars2 -->: Run the docker image from t
 In this project, we analysed Whole Genome Sequences (WGS) from 5 CoVID-19 patients and the dataset used was obtained from the Sequence Read Achived. These were fecal samples from CoVID-19 patients. We used 5 control datasets to compare with the cases. For the 16S data analysis, we also analysed 16S rRNA sequences from saliva samples.
 
 ### Results
+Results of the analysis are in the [output folder](output/).
 
 ### Team
 Sophia Sei (sofiasehli00@gmail.com)
