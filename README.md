@@ -30,7 +30,8 @@ In this project, we analysed Whole Genome Sequences (WGS) from 5 CoVID-19 patien
 
 Here are the necessary steps in order to do this analysis:
 - [x] Do quality control for the entire dataset and see if the data quality is good.
-- [x] Do the assembly and then generate a contig .fasta file which is submitted to the [MG-RAST server](https://www.mg-rast.org) in order to compare the function results with the taxa results from the annotation using prodigal:
+- [x] Do the genome assembly using Metaspades and generate the contig .fasta file.
+- [x] Submit the contig .fasta file to the [MG-RAST server](https://www.mg-rast.org) in order to compare the function results with the taxa results from the annotation using prodigal:
 
 Here is the command line to use for annotation with prodigal (where the Accession ID is SRR12328886):
 ```
