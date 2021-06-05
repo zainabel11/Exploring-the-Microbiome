@@ -1,4 +1,4 @@
-# SARS2MicrobeTaxa
+# MicrobeTaxaSARS2
 
 ### What is the problem?
 
@@ -6,10 +6,10 @@
 ### Why should we solve it?
 
 
-### What is SARS2MicrobeTaxa?
+### What is MicrobeTaxaSARS2?
 
 
-### Workflow for SARS2MicrobeTaxa
+### Workflow for MicrobeTaxaSARS2
 Here is the workflow for the pipeline:
 ![Pipleline Workflow for Metagenomic Analysis of CoVID patients' microbiome](img/workflow.png)
 
@@ -19,8 +19,8 @@ We will provide a docker image for installing and using SARS2MicrobeTaxa.
 
 The Docker image will contains SARS2MicrobeTaxa and it will be downloadable from the Docker Hub.
 
-docker pull <!-- omicscodeathon/sars2microbetaxa -->: Command to pull the image from the DockerHub
-docker run <!-- omicscodeathon/sars2microbetaxa -->: Run the docker image from the command line
+docker pull <!-- omicscodeathon/microbetaxasars2 -->: Command to pull the image from the DockerHub
+docker run <!-- omicscodeathon/microbetaxasars2 -->: Run the docker image from the command line
 
 
 ### Methods
