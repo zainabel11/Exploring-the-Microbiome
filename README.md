@@ -17,7 +17,7 @@
 
 # List of Tools
 WGS
-- FastQC: 
+- FastQC: Quality Control 
 - Metaspades: 
 - Prodigal:
 - Mgrast:
