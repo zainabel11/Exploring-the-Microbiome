@@ -10,6 +10,7 @@
 
 
 ### Workflow for SARS2MicrobeTaxa
+Here is the workflow for the pipeline:
 ![Pipleline Workflow for Metagenomic Analysis of CoVID patients' microbiome](img/workflow.png)
 
 ### How to use PubRunner
@@ -18,8 +19,8 @@ We will provide a docker image for installing and using SARS2MicrobeTaxa.
 
 The Docker image will contains SARS2MicrobeTaxa and it will be downloadable from the Docker Hub.
 
-docker pull <!--- omicscodeathon/sars2microbetaxa --->: Command to pull the image from the DockerHub
-docker run <!--- omicscodeathon/sars2microbetaxa --->: Run the docker image from the command line
+docker pull <!-- omicscodeathon/sars2microbetaxa -->: Command to pull the image from the DockerHub
+docker run <!-- omicscodeathon/sars2microbetaxa -->: Run the docker image from the command line
 
 ### Results
 
