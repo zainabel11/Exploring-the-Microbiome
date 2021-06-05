@@ -11,6 +11,7 @@ MicrobeTaxaSARS2 is an automated analytic pipeline developed using python and R 
 
 ### Workflow for MicrobeTaxaSARS2
 Here is the workflow for the pipeline:
+
 ![Pipleline Workflow for Metagenomic Analysis of CoVID patients' microbiome](img/workflow.png)
 
 ### How to use MicrobeTaxaSARS2

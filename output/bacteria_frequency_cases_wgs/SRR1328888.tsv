@@ -1,0 +1,26 @@
+superkingdom	phylum	order	family	genus	species	Strain	#Hits	Frequency (%)	class
+Bacteria	Cyanobacteria	Nostocales	Nostocaceae	Trichormus	Trichormus azollae	 Nostoc azollae  0708	522	19.390787518573553	
+Bacteria	Bacteroidetes	Cytophagales	Amoebophilaceae	Candidatus Amoebophilus	Candidatus Amoebophilus asiaticus	Candidatus Amoebophilus asiaticus 5a2	433	16.084695393759286	Cytophagia
+Bacteria	Proteobacteria	Enterobacterales	Morganellaceae	Xenorhabdus	Xenorhabdus nematophila	Xenorhabdus nematophila ATCC 19061	499	18.536404160475485	Gammaproteobacteria
+Bacteria	Bacteroidetes	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides fragilis	Bacteroides fragilis NCTC 9343	79	2.9346210995542346	Bacteroidia
+Bacteria	Firmicutes	Eubacteriales	Peptococcaceae	Desulfofarcimen	Desulfofarcimen acetoxidans	Desulfotomaculum acetoxidans DSM 771	255	9.472511144130758	Clostridia
+Archaea	Euryarchaeota	Haloferacales	Haloferacaceae	Haloquadratum	Haloquadratum walsbyi	Haloquadratum walsbyi DSM 16790	86	3.1946508172362553	Halobacteria
+Bacteria	Proteobacteria	Rickettsiales	Anaplasmataceae	Anaplasma	Anaplasma phagocytophilum	Anaplasma phagocytophilum HZ	137	5.089153046062407	Alphaproteobacteria
+Bacteria	Proteobacteria	Rickettsiales	Rickettsiaceae	Orientia	Orientia tsutsugamushi	Orientia tsutsugamushi Boryong	53	1.9687964338781574	Alphaproteobacteria
+Bacteria	Tenericutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma	Mycoplasma pneumoniae	Mycoplasma pneumoniae M129	226	8.39524517087667	Mollicutes
+Bacteria	Proteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia	Rickettsia conorii	Rickettsia conorii Malish 7	105	3.900445765230312	Alphaproteobacteria
+Archaea	Crenarchaeota	Desulfurococcales	Desulfurococcaceae	Ignisphaera	Ignisphaera aggregans	Ignisphaera aggregans DSM 17230	51	1.8945022288261515	Thermoprotei
+Bacteria	Tenericutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma	Mycoplasma suis	Mycoplasma suis Illinois	17	0.6315007429420505	Mollicutes
+Bacteria	Tenericutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasmopsis	Mycoplasma bovis	Mycoplasma bovis PG45	130	4.829123328380387	Mollicutes
+Archaea	Candidatus Thermoplasmatota	Thermoplasmatales	Thermoplasmataceae	Thermoplasma	Thermoplasma volcanium	Thermoplasma volcanium GSS1	31	1.1515601783060923	Thermoplasmata
+Archaea	Crenarchaeota	Desulfurococcales	Desulfurococcaceae	Desulfurococcus	Desulfurococcus amylolyticus	Desulfurococcus kamchatkensis 1221n	11	0.40861812778603274	Thermoprotei
+Bacteria	Proteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	Escherichia coli UMN026	14	0.5200594353640415	Gammaproteobacteria
+Bacteria	Chlorobi	Chlorobiales	Chlorobiaceae	Chlorobium	Chlorobium phaeobacteroides	Chlorobium phaeobacteroides BS1	3	0.11144130757800891	Chlorobia
+Bacteria	Verrucomicrobia	Methylacidiphilales	Methylacidiphilaceae	Methylacidiphilum	Methylacidiphilum infernorum	Methylacidiphilum infernorum V4	22	0.8172362555720655	Methylacidiphilae
+Bacteria	Proteobacteria	Xanthomonadales	Xanthomonadaceae	Xylella	Xylella fastidiosa	Xylella fastidiosa Temecula1	4	0.1485884101040119	Gammaproteobacteria
+Bacteria	Proteobacteria	Enterobacterales	Enterobacteriaceae	Shigella	Shigella dysenteriae	Shigella dysenteriae Sd197	3	0.11144130757800891	Gammaproteobacteria
+Bacteria	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema	Treponema pallidum	Treponema pallidum Nichols	5	0.18573551263001484	Spirochaetia
+Bacteria	Verrucomicrobia	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia muciniphila	Akkermansia muciniphila ATCC BAA 835	1	0.03714710252600297	Verrucomicrobiae
+Bacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia dentocariosa	Rothia dentocariosa ATCC 17931	2	0.07429420505200594	Actinomycetia
+Archaea	Euryarchaeota	Archaeoglobales	Archaeoglobaceae	Archaeoglobus	Archaeoglobus fulgidus	Archaeoglobus fulgidus DSM 4304	2	0.07429420505200594	Archaeoglobi
+Bacteria	Actinobacteria	Catenulisporales	Catenulisporaceae	Catenulispora	Catenulispora acidiphila	Catenulispora acidiphila DSM 44928	1	0.03714710252600297	Actinomycetia
