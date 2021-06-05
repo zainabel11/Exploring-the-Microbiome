@@ -17,9 +17,9 @@
 
 # List of Tools
 WGS
-- FastQC: Quality Control 
-- Metaspades: 
-- Prodigal:
+- FastQC: Quality Control of the Fastq data files
+- Metaspades: assembly of single cells and highly polymorphic diploid genomes.
+- Prodigal: 
 - Mgrast:
 - Metaphlan: 
 
@@ -27,5 +27,4 @@ WGS
 - DADA2:
 - Phyloseq:
 - ggplot2:
-
 
