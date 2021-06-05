@@ -21,9 +21,9 @@ We will provide a docker image for installing and using SARS2MicrobeTaxa.
 The Docker image will contain SARS2MicrobeTaxa and it will be downloadable from the Docker Hub.
 We will be able to run this tool as a Docker or Singularity container.
 
-docker pull <!-- omicscodeathon/microbetaxasars2 -->: Command to pull the image from the DockerHub
+- docker pull <!-- omicscodeathon/microbetaxasars2 -->: Command to pull the image from the DockerHub
 
-docker run <!-- omicscodeathon/microbetaxasars2 -->: Run the docker image from the command line
+- docker run <!-- omicscodeathon/microbetaxasars2 -->: Run the docker image from the command line
 
 
 ### Methods
