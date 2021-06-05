@@ -13,4 +13,7 @@
   
  # Workflow 
  
-![image](https://user-images.githubusercontent.com/85350037/120885085-43c47d80-c5e7-11eb-99aa-114bf4e16dd0.png)
+![image](https://user-images.githubusercontent.com/85350037/120885204-ff85ad00-c5e7-11eb-99d1-98d325e26a7d.png)
+
+# List of softwares 
+FastQC: 
