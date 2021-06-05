@@ -19,12 +19,12 @@
 WGS
 - FastQC: Quality Control of the Fastq data files
 - Metaspades: assembly of single cells and highly polymorphic diploid genomes.
-- Prodigal: 
-- Mgrast:
+- Prodigal: taxa
+- Mgrast: function 
 - Metaphlan: 
 
 16S
-- DADA2:
+- DADA2: 
 - Phyloseq:
 - ggplot2:
 
