@@ -13,7 +13,7 @@
 Here is the workflow for the pipeline:
 ![Pipleline Workflow for Metagenomic Analysis of CoVID patients' microbiome](img/workflow.png)
 
-### How to use PubRunner
+### How to use MicrobeTaxaSARS2
 Installation options:
 We will provide a docker image for installing and using SARS2MicrobeTaxa.
 
