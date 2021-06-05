@@ -31,13 +31,13 @@ In this project, we analysed Whole Genome Sequences (WGS) from 5 CoVID-19 patien
 Results of the analysis are in the [output folder](output/).
 
 ### Team
-Sophia Sei (sofiasehli00@gmail.com)
-Casey Eddington (eddin022@umn.edu)
-Zainab El Ouafi (zainab.elouafi@gmail.com)
-Soumaya JBARA (soumaya.jbara@um5r.ac.ma)
-Kasambula Arthur Shem (arthurshem86@gmail.com)
-Ayorinde Afolayan (afolayanayorinde@gmail.com)
-Islam El Jaddaoui (is.eljaddaoui@gmail.com)
-Olaitan Awe (laitanawe@gmail.com)
+- Sophia Sei (sofiasehli00@gmail.com)
+- Casey Eddington (eddin022@umn.edu)
+- Zainab El Ouafi (zainab.elouafi@gmail.com)
+- Soumaya JBARA (soumaya.jbara@um5r.ac.ma)
+- Kasambula Arthur Shem (arthurshem86@gmail.com)
+- Islam El Jaddaoui (is.eljaddaoui@gmail.com)
+- Ayorinde Afolayan (afolayanayorinde@gmail.com)
+- Olaitan Awe (laitanawe@gmail.com)
 
 ### References
