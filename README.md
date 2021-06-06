@@ -14,6 +14,7 @@ Here is the workflow for the pipeline:
 
 ![Pipleline Workflow for Metagenomic Analysis of CoVID patients' microbiome](img/workflow.png)
 
+
 ### How to use MicrobeTaxaSARS2
 Installation options:
 We will provide a docker image for installing and using SARS2MicrobeTaxa.
@@ -24,15 +25,19 @@ We will be able to run this tool as a Docker or Singularity container.
 - docker pull <!-- omicscodeathon/microbetaxasars2 -->: Command to pull the image from the DockerHub
 
 - docker run <!-- omicscodeathon/microbetaxasars2 -->: Run the docker image from the command line
-
+![Copie de Organizational Charts by Slidesgo (1)](https://user-images.githubusercontent.com/85350037/120916330-50a9a580-c6a9-11eb-8c75-3284cbfb4660.jpg)
 
 ### Methods
 
 In this project, we analysed Whole Genome Sequences (WGS) from 5 CoVID-19 patients and the dataset used was obtained from the Sequence Read Achive (SRA). These were fecal samples from CoVID-19 patients. We used 5 control datasets to compare with the cases. For the 16S data analysis, we also analysed 16S rRNA sequences from saliva samples.
 
-Here are the necessary steps in order to do this analysis:
-- [x] Do quality control for the entire dataset and see if the data quality is good.
-- [x] Do the genome assembly using Metaspades and generate the contig .fasta file.
+The SARS2MicrobeTaxa pipeline implements the following steps:
+- [x] After downloading the data in fastq format, we use FastQC to do quality checks, to see if the data quality is good.
+- [x] We run the files for assembly using metaspades, which allows just a single short-read library that must be paired-end, although lengthy reads can be provided but optimal performance is not guaranteed. The output file will be a fasta file.
+- [x] Next the annotation is done using prodigal, a fast and efficient protein-coding gene prediction tool for prokaryotic genomes. Yields a tsv file.
+- [x] Following that, we run MetaPhlAn to assign taxonomies. Metagenomic Phylogenetic Analysis (MetaPhlAn) is a computational technique for analyzing the composition of metagenomic shotgun sequencing data.
+
+
 - [x] Submit the contig .fasta file to the [MG-RAST server](https://www.mg-rast.org) in order to compare the function results with the taxa results from the annotation using prodigal:
 
 Here is the command line to use for annotation with prodigal (where the Accession ID is SRR12328886):
