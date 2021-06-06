@@ -4,7 +4,7 @@
 Since the World Health Organization labeled coronavirus disease 19 a pandemic, there has been a significant public involvement from scientists and scientific groups to speed research and development. Today, we are lucky to have various tools and publically available data to support several studies and discoveries; yet, limited data on the gut microbiota of CoVID-19 patients have not been well documented. The type and abundance of bacteria in the gut may influence the severity of CoVID-19 infection as well as the magnitude of the immune system's reaction to the infection.
 
 ### Why should we solve it?
-
+While metagenomics has evolved as a preferred tool for examining bacterial populations, assembling metagenomic data remains difficult, impeding biological discoveries. Furthermore, increasing the number of proper gene identifications and translation start locations for each gene, as well as lowering the overall number of false positives, are all desired outcomes. To address this challenges the MicrobeTaxaSARS2, will enable for the quick use of assembly and annotation tools, Metaspades and Prodigal (PROkaryotic DYnamic programming Gene-finding ALgorithm), respectively. 
 
 ### What is MicrobeTaxaSARS2?
 MicrobeTaxaSARS2 is an automated analytic pipeline developed using python and R at the ASBCB Omics Codeathon in June 2021, allowing us to determine the taxonomic diversity and the functional aspects of the gut microbiome of CoVID-19 patients.
@@ -13,7 +13,6 @@ MicrobeTaxaSARS2 is an automated analytic pipeline developed using python and R 
 Here is the workflow for the pipeline:
 
 ![Pipleline Workflow for Metagenomic Analysis of CoVID patients' microbiome](img/workflow.png)
-
 
 ### How to use MicrobeTaxaSARS2
 Installation options:
@@ -25,7 +24,7 @@ We will be able to run this tool as a Docker or Singularity container.
 - docker pull <!-- omicscodeathon/microbetaxasars2 -->: Command to pull the image from the DockerHub
 
 - docker run <!-- omicscodeathon/microbetaxasars2 -->: Run the docker image from the command line
-![Copie de Organizational Charts by Slidesgo (1)](https://user-images.githubusercontent.com/85350037/120916330-50a9a580-c6a9-11eb-8c75-3284cbfb4660.jpg)
+
 
 ### Methods
 
@@ -36,7 +35,7 @@ The SARS2MicrobeTaxa pipeline implements the following steps:
 - [x] We run the files for assembly using metaspades, which allows just a single short-read library that must be paired-end, although lengthy reads can be provided but optimal performance is not guaranteed. The output file will be a fasta file.
 - [x] Next the annotation is done using prodigal, a fast and efficient protein-coding gene prediction tool for prokaryotic genomes. Yields a tsv file.
 - [x] Following that, we run MetaPhlAn to assign taxonomies. Metagenomic Phylogenetic Analysis (MetaPhlAn) is a computational technique for analyzing the composition of metagenomic shotgun sequencing data.
-
+![Copie de Organizational Charts by Slidesgo (1)](https://user-images.githubusercontent.com/85350037/120916330-50a9a580-c6a9-11eb-8c75-3284cbfb4660.jpg) 
 
 - [x] Submit the contig .fasta file to the [MG-RAST server](https://www.mg-rast.org) in order to compare the function results with the taxa results from the annotation using prodigal:
 
