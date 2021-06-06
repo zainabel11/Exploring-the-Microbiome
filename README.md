@@ -4,7 +4,7 @@
 Since the World Health Organization labeled coronavirus disease 19 a pandemic, there has been a significant public involvement from scientists and scientific groups to speed research and development. Today, we are lucky to have various tools and publically available data to support several studies and discoveries; yet, limited data on the gut microbiota of CoVID-19 patients have not been well documented. The type and abundance of bacteria in the gut may influence the severity of CoVID-19 infection as well as the magnitude of the immune system's reaction to the infection.
 
 ### Why should we solve it?
-
+While metagenomics has evolved as a preferred tool for examining bacterial populations, assembling metagenomic data remains difficult, impeding biological discoveries. Furthermore, increasing the number of proper gene identifications and translation start locations for each gene, as well as lowering the overall number of false positives, are all desired outcomes. To address this challenges the MicrobeTaxaSARS2, will enable for the quick use of assembly and annotation tools, Metaspades and Prodigal (PROkaryotic DYnamic programming Gene-finding ALgorithm), respectively. 
 
 ### What is MicrobeTaxaSARS2?
 MicrobeTaxaSARS2 is an automated analytic pipeline developed using python and R at the ASBCB Omics Codeathon in June 2021, allowing us to determine the taxonomic diversity and the functional aspects of the gut microbiome of CoVID-19 patients.
