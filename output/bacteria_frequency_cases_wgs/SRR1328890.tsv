@@ -1,0 +1,45 @@
+superkingdom	phylum	order	family	genus	species	Strain	#Hits	Frequency (%)	class
+Bacteria	Cyanobacteria	Nostocales	Nostocaceae	Trichormus	Trichormus azollae	 Nostoc azollae  0708	4440	4.1808696962278	
+Bacteria	Firmicutes	Eubacteriales	Peptococcaceae	Desulfofarcimen	Desulfofarcimen acetoxidans	Desulfotomaculum acetoxidans DSM 771	8783	8.270400572515491	Clostridia
+Bacteria	Bacteroidetes	Bacteroidales	Bacteroidaceae	Bacteroides	Bacteroides fragilis	Bacteroides fragilis NCTC 9343	13919	13.106649842746569	Bacteroidia
+Bacteria	Firmicutes	Eubacteriales	Peptococcaceae	Pelotomaculum	Pelotomaculum thermopropionicum	Pelotomaculum thermopropionicum SI	8045	7.575472231115464	Clostridia
+Archaea	Crenarchaeota	Desulfurococcales	Desulfurococcaceae	Ignisphaera	Ignisphaera aggregans	Ignisphaera aggregans DSM 17230	1660	1.5631179494905743	Thermoprotei
+Bacteria	Chlorobi	Chlorobiales	Chlorobiaceae	Chlorobaculum	Chlorobaculum tepidum	Chlorobium tepidum TLS	2847	2.680841447108232	Chlorobia
+Bacteria	Proteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia	Rickettsia conorii	Rickettsia conorii Malish 7	3506	3.3013804403096105	Alphaproteobacteria
+Bacteria	Proteobacteria	Sphingomonadales	Erythrobacteraceae	Erythrobacter	Erythrobacter litoralis	Erythrobacter litoralis HTCC2594	1629	1.533927192602497	Alphaproteobacteria
+Bacteria	Proteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia	Escherichia coli	Escherichia coli UMN026	3793	3.571630350854065	Gammaproteobacteria
+Bacteria	Chlorobi	Chlorobiales	Chlorobiaceae	Chlorobium	Chlorobium phaeobacteroides	Chlorobium phaeobacteroides BS1	3305	3.1121113391965953	Chlorobia
+Bacteria	Proteobacteria	Alteromonadales	Alteromonadaceae	Marinobacter	Marinobacter hydrocarbonoclasticus	Marinobacter aquaeolei VT8	2879	2.7109738413152793	Gammaproteobacteria
+Bacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia dentocariosa	Rothia dentocariosa ATCC 17931	4117	3.876720842200418	Actinomycetia
+Bacteria	Verrucomicrobia	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Akkermansia muciniphila	Akkermansia muciniphila ATCC BAA 835	2766	2.6045688242716434	Verrucomicrobiae
+Bacteria	Proteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	Ralstonia solanacearum	Ralstonia solanacearum PSI07	2508	2.3616263959773254	Betaproteobacteria
+Bacteria	Proteobacteria	Hyphomicrobiales	Brucellaceae	Brucella	Brucella canis	Brucella canis ATCC 23365	1071	1.0084935686171115	Alphaproteobacteria
+Archaea	Euryarchaeota	Archaeoglobales	Archaeoglobaceae	Archaeoglobus	Archaeoglobus fulgidus	Archaeoglobus fulgidus DSM 4304	912	0.8587732349008457	Archaeoglobi
+Bacteria	Proteobacteria	Enterobacterales	Morganellaceae	Xenorhabdus	Xenorhabdus nematophila	Xenorhabdus nematophila ATCC 19061	5588	5.26186933840562	Gammaproteobacteria
+Bacteria	Proteobacteria	Rickettsiales	Rickettsiaceae	Orientia	Orientia tsutsugamushi	Orientia tsutsugamushi Boryong	2058	1.937889602440724	Alphaproteobacteria
+Bacteria	Bacteroidetes	Cytophagales	Amoebophilaceae	Candidatus Amoebophilus	Candidatus Amoebophilus asiaticus	Candidatus Amoebophilus asiaticus 5a2	4969	4.67899583796305	Cytophagia
+Bacteria	Proteobacteria	Rickettsiales	Anaplasmataceae	Anaplasma	Anaplasma phagocytophilum	Anaplasma phagocytophilum HZ	2439	2.2966534209683798	Alphaproteobacteria
+Archaea	Candidatus Thermoplasmatota	Thermoplasmatales	Thermoplasmataceae	Thermoplasma	Thermoplasma volcanium	Thermoplasma volcanium GSS1	1382	1.3013427748168516	Thermoplasmata
+Archaea	Euryarchaeota	Methanomicrobiales	Methanoregulaceae	Methanosphaerula	Methanosphaerula palustris	Methanosphaerula palustris E1 9c	721	0.6789205069775326	Methanomicrobia
+Bacteria	Proteobacteria	Enterobacterales	Enterobacteriaceae	Shigella	Shigella dysenteriae	Shigella dysenteriae Sd197	620	0.5838151377615398	Gammaproteobacteria
+Archaea	Euryarchaeota	Haloferacales	Haloferacaceae	Haloquadratum	Haloquadratum walsbyi	Haloquadratum walsbyi DSM 16790	1430	1.3465413661274224	Halobacteria
+Bacteria	Tenericutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasmopsis	Mycoplasma bovis	Mycoplasma bovis PG45	4620	4.350364413642441	Mollicutes
+Bacteria	Proteobacteria	Xanthomonadales	Xanthomonadaceae	Xylella	Xylella fastidiosa	Xylella fastidiosa Temecula1	1596	1.5028531610764797	Gammaproteobacteria
+Archaea	Crenarchaeota	Thermoproteales	Thermoproteaceae	Pyrobaculum	Pyrobaculum aerophilum	Pyrobaculum aerophilum IM2	400	0.37665492758809016	Thermoprotei
+Bacteria	Verrucomicrobia	Methylacidiphilales	Methylacidiphilaceae	Methylacidiphilum	Methylacidiphilum infernorum	Methylacidiphilum infernorum V4	1494	1.4068061545415167	Methylacidiphilae
+Bacteria	Proteobacteria	Burkholderiales	Burkholderiaceae	Mycetohabitans	Mycetohabitans rhizoxinica	Burkholderia rhizoxinica HKI 454	717	0.6751539577016517	Betaproteobacteria
+Bacteria	Actinobacteria	Corynebacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium leprae	Mycobacterium leprae TN	468	0.44068626527806554	Actinomycetia
+Archaea	Crenarchaeota	Desulfurococcales	Desulfurococcaceae	Desulfurococcus	Desulfurococcus amylolyticus	Desulfurococcus kamchatkensis 1221n	667	0.6280720917531404	Thermoprotei
+Archaea	Euryarchaeota	Haloferacales	Halorubraceae	Halorubrum	Halorubrum lacusprofundi	Halorubrum lacusprofundi ATCC 49239	234	0.22034313263903277	Halobacteria
+Bacteria	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema	Treponema pallidum	Treponema pallidum Nichols	753	0.7090529011845798	Spirochaetia
+Bacteria	Tenericutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma	Mycoplasma pneumoniae	Mycoplasma pneumoniae M129	3645	3.4322680276464714	Mollicutes
+Bacteria	Tenericutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma	Mycoplasma suis	Mycoplasma suis Illinois	1002	0.9435205936081659	Mollicutes
+Bacteria	Actinobacteria	Catenulisporales	Catenulisporaceae	Catenulispora	Catenulispora acidiphila	Catenulispora acidiphila DSM 44928	1949	1.8352511346729692	Actinomycetia
+Bacteria	Actinobacteria	Corynebacteriales	Nocardiaceae	Rhodococcus	Rhodococcus jostii	Rhodococcus jostii RHA1	644	0.6064144334168252	Actinomycetia
+Bacteria	Proteobacteria	Hyphomicrobiales	Rhizobiaceae	Sinorhizobium	Sinorhizobium fredii	Rhizobium NGR234	170	0.16007834422493833	Alphaproteobacteria
+Archaea	Euryarchaeota	Methanopyrales	Methanopyraceae	Methanopyrus	Methanopyrus kandleri	Methanopyrus kandleri AV19	648	0.610180982692706	Methanopyri
+Archaea	Crenarchaeota	Desulfurococcales	Pyrodictiaceae	Hyperthermus	Hyperthermus butylicus	Hyperthermus butylicus DSM 5456	310	0.2919075688807699	Thermoprotei
+Archaea	Thaumarchaeota	Cenarchaeales	Cenarchaeaceae	Cenarchaeum	Cenarchaeum symbiosum	Cenarchaeum symbiosum B	228	0.21469330872521142	
+Archaea	Crenarchaeota	Desulfurococcales	Desulfurococcaceae	Aeropyrum	Aeropyrum pernix	Aeropyrum pernix K1	670	0.6308970037100511	Thermoprotei
+Archaea	Candidatus Korarchaeota			Candidatus Korarchaeum	Candidatus Korarchaeum cryptofilum	Candidatus Korarchaeum cryptofilum OPF8	216	0.2033936608975687	
+Archaea	Euryarchaeota	Natrialbales	Natrialbaceae	Natrialba	Natrialba magadii	Natrialba magadii ATCC 43099	380	0.35782218120868564	Halobacteria
