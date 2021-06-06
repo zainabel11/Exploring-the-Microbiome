@@ -29,7 +29,7 @@ We will be able to run this tool as a Docker or Singularity container.
 
 ### Methods
 
-In this project, we analysed Whole Genome Sequences (WGS) from 5 CoVID-19 patients and the dataset used was obtained from the Sequence Read Achive (SRA). These were fecal samples from CoVID-19 patients. We used 5 control datasets to compare with the cases. For the 16S data analysis, we also analysed 16S rRNA sequences from saliva samples.
+In this project, we analysed Whole Genome Sequences (WGS) from 6 CoVID-19 patients and the dataset used was obtained from the Sequence Read Achive (SRA). These were fecal samples from CoVID-19 patients. For the 16S data analysis, we also analysed 16S rRNA sequences from saliva samples.
 
 The SARS2MicrobeTaxa pipeline implements the following steps:
 - [x] After downloading the data in fastq format, we use FastQC to do quality checks, to see if the data quality is good.
