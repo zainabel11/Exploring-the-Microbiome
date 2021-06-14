@@ -15,6 +15,11 @@ Here is the workflow for the pipeline:
 ![image](https://user-images.githubusercontent.com/85350037/121264719-e61a8480-c8b7-11eb-8846-4e0062df924c.png)
 
 ### How to use MicrobeTaxaSARS2
+The most important point in the usage of MicrobeTaxaSARS2 and TAXAPRO is that the two scripts must be in the same location as all the paired-end Fastqs that you're looking to analyse.
+Then you can cd into the Fastq directory and then use python to run the scripts from there:
+```python meta-assembly-annotationPRODIGAL.py && python taxonomy_code.py
+```
+
 Installation options:
 We will provide a docker image for installing and using SARS2MicrobeTaxa.
 
