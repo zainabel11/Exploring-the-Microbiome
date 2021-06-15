@@ -60,7 +60,7 @@ These findings add to our understanding of the alteration of the gut microbiome 
 
 
 ### Team
-- Sophia Sei (sofiasehli00@gmail.com)
+- Sofia Sehli (sofiasehli00@gmail.com)
 - Casey Eddington (eddin022@umn.edu)
 - Zainab El Ouafi (zainab.elouafi@gmail.com)
 - Soumaya JBARA (soumaya.jbara@um5r.ac.ma)
