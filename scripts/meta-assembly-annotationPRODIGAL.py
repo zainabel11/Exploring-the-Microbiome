@@ -22,12 +22,13 @@ arguments = arguments.__dict__
 print(arguments)
 forward = arguments['input1']
 reverse = arguments['input2']
-output = arguments['output']
+output = arguments['output'].rstrip('/')
 try:
     assembly = threading.Thread(target=assemble, args=(forward, reverse, output))
     assembly.start()
     assembly.join()
-    annotation = threading.Thread (target = prodigal, args = (output, f"{output}"))
+    Path(f"{output}/prodigal").mkdir(parents=True, exist_ok=True)
+    annotation = threading.Thread (target = prodigal, args = (output, f"{output}/prodigal"))
     annotation.start()
     annotation.join()
 
