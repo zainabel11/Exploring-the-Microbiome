@@ -24,6 +24,18 @@ python meta-assembly-annotationPRODIGAL.py && python taxonomy_code.py
 ```
 
 Installation options:
+#### Pipenv
+1- Install pipenv
+```
+pip install pipenv
+```
+2- Activate the environment
+```
+cd <location_of_the_script>
+pipenv shell
+```
+
+#### Docker
 We will provide a docker image for installing and using SARS2MicrobeTaxa.
 
 The Docker image will contain SARS2MicrobeTaxa and it will be downloadable from the Docker Hub.
