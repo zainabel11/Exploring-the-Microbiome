@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import threading
 def plot_fam(data,output):
     ax=sns.barplot(x=data['samples'],y=data['frequency'],hue=data['family'])
     ax.set(xlabel='Samples', ylabel='Frequency')
@@ -41,3 +42,20 @@ def plot_strain(data,output):
     plt.show()
     ax.figure.savefig(f"{output}/strains_barplot.png",dpi=1200,bbox_inches="tight")
     return ax
+def ploting(data,output):
+    annotation = threading.Thread (target = plot_phyla, args = (data, output))
+    annotation.start()
+    annotation.join()
+    annotation = threading.Thread (target = plot_fam, args = (data, output))
+    annotation.start()
+    annotation.join()
+    annotation = threading.Thread (target = plot_gen, args = (data, output))
+    annotation.start()
+    annotation.join()
+    annotation = threading.Thread (target = plot_sp, args = (data, output))
+    annotation.start()
+    annotation.join()
+    annotation = threading.Thread (target = plot_strain, args = (data, output))
+    annotation.start()
+    annotation.join()
+    return "Done"
