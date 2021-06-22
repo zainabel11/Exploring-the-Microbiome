@@ -20,7 +20,7 @@ Then you can cd into the Fastq directory and then use python to run the scripts 
 
 ```
 cd <location_of_fastqs>
-python meta-assembly-annotationPRODIGAL.py && python taxonomy_code.py
+python TaxPro.py
 ```
 
 Installation options:
