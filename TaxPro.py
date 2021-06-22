@@ -16,7 +16,7 @@ from scripts import assembly, taxa_ann, taxonomy_frequency, ploting
 parser = argparse.ArgumentParser(description='Give row data')
 parser.add_argument('-f', '--forward', help='forward sequence')
 parser.add_argument('-r', '--reverse', help=' reverse sequnece')
-parser.add_argument('-s','--sra', help='SRA Run Accession Number')
+# parser.add_argument('-s','--sra', help='SRA Run Accession Number')
 parser.add_argument('-o', '--output', help='Output folder')
 arguments = parser.parse_args()
 arguments = arguments.__dict__
@@ -25,7 +25,7 @@ file_path = os.path.abspath(file_path)
 file_path = os.path.dirname(file_path)
 forward = arguments['forward']
 reverse = arguments['reverse']
-sra = arguments['sra']
+# sra = arguments['sra']
 output = arguments['output']
 
 if output == None:
@@ -35,9 +35,9 @@ elif os.path.isdir(output) == False:
 else:
     output = output.rstrip('/')
     output = os.path.abspath(output)
-    if forward == None and reverse == None and sra !=None:
+    if forward == None or reverse == None:
         pass
-    elif sra ==None and forward !=None and reverse !=None:
+    else:
         try:
             assembly = threading.Thread(target=assembly.assemble_pe, args=(file_path,forward,reverse, output))
             assembly.start()
