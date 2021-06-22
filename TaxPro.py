@@ -63,5 +63,4 @@ else:
             plots.join()
         except:
             raise ChildProcessError("Error in a step")
-    else:
-        raise KeyError("You used unconfortable arguments")
+  
