@@ -1,21 +1,22 @@
-# MicrobeTaxaSARS2
+# TAXAPRO
 
 ### What is the problem?
-Since the World Health Organization labeled coronavirus disease 19 a pandemic, there has been a significant public involvement from scientists and scientific groups to speed research and development. Today, we are lucky to have various tools and publically available data to support several studies and discoveries; yet, limited data on the gut microbiota of CoVID-19 patients have not been well documented. The type and abundance of bacteria in the gut may influence the severity of CoVID-19 infection as well as the magnitude of the immune system's reaction to the infection. We introduce the MicrobeTaxaSARS2 pipeline and TAXAPRO, which was created to reduce time and effort while eliminating manual mistakes, especially when dealing with large amounts of data.
+The ability to promptly sequence whole genomes at a relatively low cost has revolutionized the way we study microbiomes. Microbiologists are no longer limited to studying what can be grown in a lab and instead are given the opportunity to rapidly identify the makeup of microbial communities in a wide variety of environments. Analyzing whole genome sequencing (WGS) data is a complex process that involves multiple moving parts and might be rather unintuitive for scientists that don’t typically work with this type of data. Thus, to help lower the barrier for less-computationally inclined individuals, TAXAPRO was developed at the 2021 African Society for Bioinformatics and Computational Biology (ASBCB) Omics Codeathon. TAXAPRO is an advanced metagenomics pipeline that accurately assembles organelle genomes from whole genome sequencing data. TAXAPRO seamlessly combines WGS analysis tools to create a pipeline that automatically processes raw WGS data and presents organism abundance information in both a tabular and graphical format.  
+
 
 ### Why should we solve it?
-While metagenomics has evolved as a preferred tool for examining bacterial populations, assembling metagenomic data remains difficult, impeding biological discoveries. Furthermore, increasing the number of proper gene identifications and translation start locations for each gene, as well as lowering the overall number of false positives, are all desired outcomes. To address this challenges the MicrobeTaxaSARS2, will enable for the quick use of assembly and annotation tools, Metaspades and Prodigal (PROkaryotic DYnamic programming Gene-finding ALgorithm), respectively. On the other hand, TAXAPRO is a microbiological profiling script code that delivers accurate strain-level profiling. Taxonomic classifications that are unambiguous; accurate calculation of organismal relative abundance; species-level resolution; and strain identification and tracking.
+While metagenomics has evolved as a preferred tool for examining bacterial populations, assembling metagenomic data remains difficult, impeding biological discoveries. Furthermore, increasing the number of proper gene identifications and translation start locations for each gene, as well as lowering the overall number of false positives, are all desired outcomes. To address this challenges the TAXAPRO pipeline designed to automatically analyze large WGS datasets reducing human intervention, potential for error, and the possible computation barrier involved in such a task and delivers accurate strain-level profiling, with a taxonomic classifications that are unambiguous; accurate calculation of organismal relative abundance; species-level resolution; and strain identification and tracking.
 
 
-### What is MicrobeTaxaSARS2 and TAXAPRO?
-MicrobeTaxaSARS2 is an automated analytic pipeline developed using python at the ASBCB Omics Codeathon in June 2021. TAXAPRO is a microbiological profiling script code that delivers accurate strain-level profiling. Taxonomic classifications that are unambiguous; accurate calculation of organismal relative abundance; species-level resolution; and strain identification and tracking. Both scipts are allowing us to determine the taxonomic diversity and the functional aspects of the gut microbiome of CoVID-19 patients.
+### What is TAXAPRO?
+TAXAPRO is an automated analytic pipeline developed using python at the ASBCB Omics Codeathon in June 2021. TAXAPRO is a microbiological profiling script code that delivers accurate strain-level profiling. Taxonomic classifications that are unambiguous; accurate calculation of organismal relative abundance; species-level resolution; and strain identification and tracking. It allows us to determine the taxonomic diversity and the functional aspects of the gut microbiome of CoVID-19 patients in our case.
 
 ### Overall Workflow
 Here is the workflow for the pipeline:
 ![image](https://user-images.githubusercontent.com/85350037/121264719-e61a8480-c8b7-11eb-8846-4e0062df924c.png)
 
-### How to use MicrobeTaxaSARS2
-The most important point in the usage of MicrobeTaxaSARS2 and TAXAPRO is that the two scripts must be in the same location as all the **paired-end** Fastqs (*the reads must be paired-end sequences*) that you're looking to analyse.
+### How to use TAXAPRO
+The most important point in the usage of TAXAPRO is that the scripts must be in the same location as all the **paired-end** Fastqs (*the reads must be paired-end sequences*) that you're looking to analyse.
 Then you can cd into the Fastq directory and then use python to run the scripts from there:
 
 ```
@@ -49,26 +50,28 @@ We will be able to run this tool as a Docker or Singularity container.
 ### Methods
 
 In this project, we analysed Whole Genome Sequences (WGS) from 6 CoVID-19 patients and the dataset used was obtained from the Sequence Read Achive (SRA). These were fecal samples from CoVID-19 patients.
-The MicrobeTaxaSARS2 and TAXAPRO pipeline implements the following steps:
-- [x] After downloading the data in fastq format, we used FastQC to do quality checks to see if the data quality is good.
-- [x] We ran MicrobeTaxaSARS2 where the assembly was done first, using metaspades.The output file will be a fasta file.
-- [x] Next, the annotation was done using prodigal. This yields a GFF file.
-- [x] Following that, we ran TAXAPRO to assign taxonomies. delivering a TSV file as an outcome.
+TheTAXAPRO pipeline implements the following steps:
+- [x] TAXAPRO uses SRAdownload to pull raw WGS data from the SRA database. It uses FastQC to provide an overview of basic quality control for NGS sequencing data by exporting an HTML file that flags the FASTQ sequences as passed, warn, or fail. 
+- [x] TAXAPRO then uses Trimmomatic to clean the data. 
+- [x] Trimmomatic passes the cleaned data to MetaSPAdes for genome assembly. 
+- [x] Prodigal uses an unsupervised machine learning algorithm to annotate the assembled genome providing nucleotide and amino acid sequence data belonging to each species. 
+- [x] Sequences are then mapped against the non-redundant database using blast and blastp to provide functional assignment.
+- [x] Results are compiled and presented visually using the python package seaborn. 
 
-Here is the command line to use for annotation with prodigal (where the Accession ID is SRR12328886):
-```
-prodigal -a assembled/SRR12328886/contigs.aa.fasta -d assembled/SRR12328886/contigs.nuc.fasta -i assembled/SRR12328886/contigs.fasta -f gff -p meta > assembled/SRR12328886/contigs.gff
-```
 
-![Copie de Organizational Charts by Slidesgo (2)](https://user-images.githubusercontent.com/85350037/121264936-43163a80-c8b8-11eb-9b9d-bfb3e92f4748.jpg)
-
+![Copie de Organizational Charts by Slidesgo](https://user-images.githubusercontent.com/85350037/139056048-f035cc30-d5e6-4c2f-b7ed-5e1e30f44384.png)
 
 
 ### Results
 Results of the analysis are in the [output folder](output/).
 
-There were no significant variations in the composition of the gut microbiome of the 6 cocid-19 samples of infected patients. According to our findings and the use of the MicrobeTaxaSARS2 and TAXAPRO pipelines, Clostridia and Bacteroidia genuses were discovered in larger quantities in the fecal bacterial samples. The microbiota profiles of the six samples were rather similar. We found a rise in the relative abundance of Bacteroides fragilis, Desulfotomaculum acetoxidans, Pelotomaculum thermopropionicum, Escherichia coli, and other opportunistic bacterial strains at the strain level.
+The evaluation of TAXAPRO pipeline showed a improuvement in the analysis time span, tendency to make mistakes, and computational intensivity. The results showed significant assembly differences between species, and a smooth mapping plot. 
+There were no significant variations in the composition of the gut microbiome of the 6 cocid-19 samples of infected patients. According to our findings and the use of the TAXAPRO pipelines, Clostridia and Bacteroidia genuses were discovered in larger quantities in the fecal bacterial samples. The microbiota profiles of the six samples were rather similar. We found a rise in the relative abundance of _Bacteroides fragilis, Desulfotomaculum acetoxidans, Pelotomaculum thermopropionicum, Escherichia coli_, and other opportunistic bacterial strains at the strain level.
 These findings add to our understanding of the alteration of the gut microbiome in covid-19 infected individuals, paving the way for a better understanding of the microbiota's effects on people's health.
+
+
+### Conclusion and perspective
+TAXAPRO was developed to make WGS analysis easier and more accessible for all. By simply running a script overnight, the user will have access to an easy to interpret organism abundance analysis that was shown to be accurate using data from BioProject 624223. Considering the automation, even WGS-experts might want to use a pipeline like TAXAPRO to simplify their analysis process. Continued development of tools like TAXAPRO will revolutionize the way we analyze large WGS datasets and give anyone the ability to pursue metagenomics studies.
 
 
 ### Team
